@@ -12,7 +12,7 @@ echo "\n\n";
 echo "Data dari PHP Object:\n";
 echo "Nama: " . $phpObject->nama . "\n";
 echo "Usia: " . $phpObject->usia . "\n";
-echo "Hobi: " . implode(", ", $phpObject->hobi) . "\n"; // Menggunakan implode untuk menampilkan array
+echo "Hobi: " . implode(", ", $phpObject->hobi) . "\n";
 
 echo "-------------------------------------\n";
 
@@ -20,6 +20,6 @@ echo "\n";
 echo "Data dari PHP Array:\n";
 echo "Nama: " . $phpArray['nama'] . "\n";
 echo "Usia: " . $phpArray['usia'] . "\n";
-echo "Hobi: " . implode(", ", $phpArray['hobi']) . "\n"; // Menggunakan implode untuk menampilkan array
+echo "Hobi: " . implode(", ", $phpArray['hobi']) . "\n";
 
 ?>
